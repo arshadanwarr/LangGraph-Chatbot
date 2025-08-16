@@ -1,0 +1,16 @@
+@"
+.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+myenv/
+.vscode/
+.idea/
+"@ | Out-File -Encoding utf8 .gitignore
